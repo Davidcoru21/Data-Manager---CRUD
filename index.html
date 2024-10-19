@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Manager - CRUD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gestion De Datos</h1>
+    </header>
+
+    <main>
+        <section id="create-data">
+            <h2>Agregar Datos</h2>
+            <form id="data-form">
+                <input type="text" id="data-name" placeholder="Nombre" required>
+                <input type="text" id="data-title" placeholder="Titulo" required>
+                <input type="text" id="data-status" placeholder="Estado" required>
+                <input type="text" id="data-role" placeholder="Rol" required>
+                <button type="submit">Agregar</button>
+            </form>
+        </section>
+
+        <section id="data-table">
+            <h2>Tabla De Datos</h2>
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Titulo</th>
+                        <th>Estado</th>
+                        <th>Rol</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Aplicacion - Gestion De Datos © 2024</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
