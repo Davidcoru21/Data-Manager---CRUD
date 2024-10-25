@@ -24,8 +24,8 @@ function renderData() {
             <td>${item.status}</td>
             <td>${item.role}</td>
             <td>
-                <button onclick="editData(${index})">Edit</button>
-                <button onclick="deleteData(${index})">Delete</button>
+                <button onclick="editData(${index})">Editar</button>
+                <button onclick="deleteData(${index})">Borrar</button>
             </td>
         `;
         tableBody.appendChild(row);
